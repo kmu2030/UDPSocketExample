@@ -28,7 +28,7 @@ Sysmacプロジェクト(`ExampleUDPSocket.smc2`)は、以下の手順で使用�
     `DEST_ADDRS`と`DEST_PORTS`の値をデータを待ち受ける端末のアドレスに変更します。
   
 3.  **適当な端末でUDPソケットをオープンして待ち受ける**   
-    `simple-ddp-monitor.ps1`が参考のPowerShellスクリプトです。   
+    `simple-udp-monitor.ps1`が参考のPowerShellスクリプトです。   
     `start-multi-monitors.ps1`は、Windows Terminalを使用して4つのUDPエンドポイントを立ち上げるPowerShellスクリプトです。   
     1台の端末でテストする場合、ネットワークインタフェースに複数のIPを割りつけて試してください。
 
